@@ -1,0 +1,21 @@
+// Agenda-当笔记遇见日历
+// copied from https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/ag.js
+
+let obj = JSON.parse($response.body);
+let requestUrl = $request.url;
+
+if (/^https:\/\/accounts\.agenda\.com\/users?/.test(requestUrl)) {
+    obj.unlockExpiry = 7955085722; 
+    obj.unlockExpiryMobile = 7955085722; 
+    obj.licenseStatus = 2; 
+    obj.informUserOfPendingBonus = false; 
+    obj.hasLifetimeUnlock = true; 
+    obj.freeTrialStatus = 1; 
+    obj.isSubscribed = true; 
+    obj.isSubscribedMobile = true; 
+    obj.error = 0; 
+    obj.licenseStatusMobile = 1; 
+    obj.universalPurchaseAvailable = true
+}
+
+$done({ body: JSON.stringify(obj) });
