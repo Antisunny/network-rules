@@ -1,5 +1,6 @@
 // Bear熊掌记
 // copied from https://github.com/Peng-Lx/lxpscript/blob/master/JS/Bear.js
+// copied from https://github.com/Guding88/Script/blob/main/xiongzhangji.js
 
 var obj = JSON.parse($response.body);
 var bundle_id = obj.receipt["bundle_id"];

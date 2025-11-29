@@ -1,6 +1,7 @@
 // 有道词典
 // copied from https://raw.githubusercontent.com/agkjVIP/QuantumultX-Rewrite-Rules/main/ydcd.js
 // also https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/wyydcd.js [加密了]
+// also https://raw.githubusercontent.com/axtyet/Luminous/main/Yu9191/Rewrite/wyydcd.js
 
 var objc = JSON.parse($response.body);
 objc = {
