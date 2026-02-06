@@ -1,0 +1,9 @@
+# 麦田影院 https://www.mtyy5.com/
+host-suffix, mtyy5.com, direct
+# TT源
+host-suffix, dytt-tvs.com, direct
+host-suffix, toutiaovid.com, direct
+# FF源
+host-suffix, ffzy-video.com, direct
+# LZ源
+host-suffix, lzcdn27.com, direct
